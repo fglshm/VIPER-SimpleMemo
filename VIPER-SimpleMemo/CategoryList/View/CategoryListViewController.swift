@@ -205,6 +205,7 @@ class CategoryListViewController: UIViewController, UICollectionViewDelegateFlow
     
     func add(category: Category) {
         DispatchQueue.main.async {
+            print("")
             self.categories.insert(category, at: 0)
             self.categoryCollectionView.reloadData()
         }
