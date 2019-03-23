@@ -1,0 +1,6 @@
+framework module Pods_VIPER_SimpleMemo {
+  umbrella header "Pods-VIPER-SimpleMemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
